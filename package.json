@@ -1,0 +1,53 @@
+{
+  "name": "webpack-react-bootstrap-express-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for running Webpack in Express with Bootstrap and React",
+  "author": "Jacob Swanson <jacob@swandiggy.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "",
+    "clean": "rimraf dist/",
+    "build": "webpack -p --colors",
+    "start": "babel-node ./src/server",
+    "start-prod": "cross-env NODE_ENV=production babel-node ./src/server",
+    "check-deps": "ncu -l verbose --packageFile package.json",
+    "update-deps": "ncu -l verbose --packageFile package.json -u"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-cli": "^6.11.4",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.0",
+    "bootstrap-loader": "^1.0.10",
+    "cross-env": "^2.0.0",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.3",
+    "file-loader": "^0.9.0",
+    "font-awesome-loader": "0.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "imports-loader": "^0.6.5",
+    "json-loader": "^0.5.3",
+    "node-sass": "^3.8.0",
+    "npm-check-updates": "^2.7.2",
+    "postcss-loader": "^0.9.1",
+    "react-transform-hmr": "^1.0.0",
+    "resolve-url-loader": "^1.6.0",
+    "rimraf": "^2.5.3",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "tether": "^1.3.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.2.0"
+  }
+}
