@@ -28,12 +28,6 @@ While these are nice, they are not required for development.
 3. `npm run start-prod`
 4. Navigate to [http://localhost:8080](http://localhost:8080) in the browser of your choice
 
-## Package Updates
-You can check for package updates by running `npm run check-deps`. 
-This uses [npm-check-updates](https://github.com/tjunnone/npm-check-updates) to analyze `package.json` for updates.
-
-Use `npm run update-deps` to apply the changes to your `package.json`.
-
 ## Overview
 When running in development mode, the server will use webpack to build the client.
 The production mode will only serve the files from the `dist/` directory which can be cleaned using `npm run clean` and built using `npm run build`.
@@ -53,3 +47,11 @@ Check the [bootstrap-loader](https://github.com/shakacode/bootstrap-loader) proj
 
 ### Font Awesome
 Uses [font-awesome-loader](https://github.com/shakacode/font-awesome-loader) to load Font Awesome as Glyphicons are no longer a part of the Bootstrap 4.
+
+## Package Updates
+If any packages in this project are outdated, you should be able to easily update them.
+
+You can check for package updates by running `npm run check-deps`. 
+This uses [npm-check-updates](https://github.com/tjunnone/npm-check-updates) to analyze `package.json` for updates.
+
+Use `npm run update-deps` to apply the changes to your `package.json`.
