@@ -1,4 +1,4 @@
-# Webpack, ES6, React, Bootstrap, Font Awesome, and Express Boilerplate
+# Webpack, ES6, React, Bootstrap, Font Awesome, Express, and Mocha Boilerplate
 Boilerplace project setup with all of the above.
 
 It should work on both Linux and Windows. However, I have only tested it on Windows.
