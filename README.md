@@ -43,6 +43,7 @@ Uses [bootstrap-loader](https://github.com/shakacode/bootstrap-loader) to load [
 
 Add your app styles to `src/client/styles/app.scss`.
 You can also include CSS/SCSS files with your components.
+
 Check the [bootstrap-loader](https://github.com/shakacode/bootstrap-loader) project for how to customize Bootstrap.
 
 ### Font Awesome
