@@ -35,6 +35,14 @@ Hot reloading is not enabled for production builds.
 ### Tests
 1. `npm run tests`
 
+### Package Updates
+If any packages in this project are outdated, you should be able to easily update them.
+
+You can check for package updates by running `npm run check-deps`. 
+This uses [npm-check-updates](https://github.com/tjunnone/npm-check-updates) to analyze `package.json` for updates.
+
+Use `npm run update-deps` to apply the changes to your `package.json`.
+
 ## Overview
 When running in development mode, the server will use webpack to build the client.
 The production mode will only serve the files from the `dist/` directory which can be cleaned using `npm run clean` and built using `npm run build`.
@@ -59,11 +67,3 @@ Uses [font-awesome-loader](https://github.com/shakacode/font-awesome-loader) to 
 ### Mocha (Tests)
 Uses [Mocha](https://mochajs.org/) for executing tests.
 Tests can be written using either JSX or plain JS with ES6.
-
-### Package Updates
-If any packages in this project are outdated, you should be able to easily update them.
-
-You can check for package updates by running `npm run check-deps`. 
-This uses [npm-check-updates](https://github.com/tjunnone/npm-check-updates) to analyze `package.json` for updates.
-
-Use `npm run update-deps` to apply the changes to your `package.json`.
