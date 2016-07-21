@@ -4,30 +4,36 @@ Boilerplace project setup with all of the above.
 It should work on both Linux and Windows. However, I have only tested it on Windows.
 
 I attempted to keep the project as simple by only including what is necessary for achieving my goals of:
-* React with Hot Reload
+* React with hot reload
 * Bootstrap
 * Express
 * ES6
+* Mocha
 
 This means I skipped things like [eslint](http://eslint.org).
 While these are nice, they are not required for development.
 
 ## Running
 
-### Checkout
+### Setup
 1. `git clone git@github.com:jacob-swanson/webpack-react-bootstrap-express-boilerplate.git`
 2. `cd webpack-react-bootstrap-express-boilerplate/`
+3. `npm install`
+
 
 ### Development
-1. `npm install`
-2. `npm start`
-3. Navigate to [http://localhost:8080](http://localhost:8080) in the browser of your choice
+1. `npm start`
+2. Navigate to [http://localhost:8080](http://localhost:8080) in the browser of your choice
 
 ### Production
-1. `npm install`
-2. `npm run build`
-3. `npm run start-prod`
-4. Navigate to [http://localhost:8080](http://localhost:8080) in the browser of your choice
+1. `npm run build`
+2. `npm run start-prod`
+3. Navigate to [http://localhost:8080](http://localhost:8080) in the browser of your choice
+
+Hot reloading is not enabled for production builds.
+
+### Tests
+1. `npm run tests`
 
 ## Overview
 When running in development mode, the server will use webpack to build the client.
@@ -50,7 +56,11 @@ Check the [bootstrap-loader](https://github.com/shakacode/bootstrap-loader) proj
 ### Font Awesome
 Uses [font-awesome-loader](https://github.com/shakacode/font-awesome-loader) to load Font Awesome as Glyphicons are no longer a part of the Bootstrap 4.
 
-## Package Updates
+### Mocha (Tests)
+Uses [Mocha](https://mochajs.org/) for executing tests.
+Tests can be written using either JSX or plain JS with ES6.
+
+### Package Updates
 If any packages in this project are outdated, you should be able to easily update them.
 
 You can check for package updates by running `npm run check-deps`. 
