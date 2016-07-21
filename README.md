@@ -12,16 +12,21 @@ While these are nice, they are not required for development.
 
 ## Running
 
+### Checkout
+
+1. `git clone git@github.com:jacob-swanson/webpack-react-bootstrap-express-boilerplate.git`
+2. `cd webpack-react-bootstrap-express-boilerplate/`
+
 ### Development
 1. `npm install`
 2. `npm start`
-3. Navigate to http://localhost:8080 in the browser of your choice
+3. Navigate to [http://localhost:8080](http://localhost:8080) in the browser of your choice
 
 ### Production
 1. `npm install`
 2. `npm run build`
 3. `npm run start-prod`
-4. Navigate to http://localhost:8080 in the browser of your choice
+4. Navigate to [http://localhost:8080](http://localhost:8080) in the browser of your choice
 
 ## Package Updates
 You can check for package updates by running `npm run check-deps`. 
