@@ -1,6 +1,8 @@
 # Webpack, ES6, React, Bootstrap, Font Awesome, and Express Boilerplate
 Boilerplace project setup with all of the above.
 
+It should work on both Linux and Windows. However, I have only tested it on Windows.
+
 I attempted to keep the project as simple by only including what is necessary for achieving my goals of:
 * React with Hot Reload
 * Bootstrap
@@ -13,7 +15,6 @@ While these are nice, they are not required for development.
 ## Running
 
 ### Checkout
-
 1. `git clone git@github.com:jacob-swanson/webpack-react-bootstrap-express-boilerplate.git`
 2. `cd webpack-react-bootstrap-express-boilerplate/`
 
